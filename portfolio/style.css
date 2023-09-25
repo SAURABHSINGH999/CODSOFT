@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&family=Quicksand:wght@300&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    background-color: rgb(105, 99, 99);
+    height: 50px;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.nav-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.nav-container-object {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 30%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .main-container-image{ */
+/* border-radius: 50%;
+} */
+.main-container-aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    padding: 5% 2% 3%;
+}
+
+.main-container-aboutMe-greeting {
+    margin: 3% 2.5%;
+}
+
+.main-container-aboutMe-greeting h2 {
+    font-size: 200%;
+}
+
+.main-container-aboutMe-other {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+    margin: 2% 0;
+}
+
+.main-container-aboutme-socialMedia a {
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn a {
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.container-whatIDo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 2% 0;
+}
+
+.whatIDo-heading {
+    font-size: 125%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.whatIDo-content {
+    margin-left: 2%;
+}
+.whatIDo-content li{
+    margin: 0 auto 2% ;
+}
+.main-container-aboutMe-para {
+    padding: auto 5%;
+}
+
+.container-proficiency {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-proficiency ul {
+    width: 60%;
+}
+
+.container-proficiency-content {
+    width: 80%;
+}
+
+.li-item {
+    background-color: rgb(160, 153, 153);
+}
+
+.item {
+    background-color: rgb(32, 32, 32);
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3% 0 5%;
+}
+
+.project {
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 3px 5px 10px 2px rgb(54, 54, 54);
+}
+
+.footer-container p {
+    background-color: rgb(114, 105, 105);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
