@@ -1,0 +1,95 @@
+body
+{
+    margin-left: 2rem;
+    background-color: #1c1c1c;
+}
+.button_row1
+{
+    position: relative;
+    left: 36rem;
+    top: 7rem;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    font-size:x-large;
+    background-color: #d4d4d2;
+    border-color: #1c1c1c;
+}
+.value
+{
+    position: relative;
+    left: 36rem;
+    top: 4rem;
+    width: 20rem;
+    padding: 1rem;
+    font-size: xx-large;
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+    color: #fff;
+}
+.button_row2
+{
+    position: relative;
+     left: 36rem;
+    top: 8rem;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+   font-size:x-large;
+    background-color: #505050;
+}
+.button_row3
+{
+    position: relative;
+     left: 36rem;
+    top: 9rem;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+   font-size:x-large;
+    background-color: #505050;
+}
+.button_row4
+{
+    position: relative;
+     left: 36rem;
+    top: 10rem;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+   font-size:x-large;
+    background-color: #505050;
+}
+.button_row5
+{
+    position: relative;
+     left: 36rem;
+    top: 11rem;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+   font-size:x-large;
+    background-color: #505050;
+}
+.equals{
+    width: 10rem;
+    border-radius: 28px;
+    font-size: xx-large;
+    top: 11rem;
+}
+
+h1 {
+    text-align: center;
+    animation: color-change 1s infinite;
+  }
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
